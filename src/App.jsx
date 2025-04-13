@@ -6,7 +6,8 @@ import { useDebounce } from "react-use";
 import { getTrendingMovies, updateSearchCount } from "./appwrite";
 
 const API_BASE_URL = "https://api.themoviedb.org/3";
-const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
+const API_KEY ="eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjYzM4ZTI0YzFjNjBmZjVhZmE4MDU5NGNkZjVhMTI1NiIsIm5iZiI6MTc0MzAzODEyMS4zMzQsInN1YiI6IjY3ZTRhNmE5MjA3NGIwZWU1NjAwMjRlMiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.KM6QsOicB4Olhj9x316Tx5mPWE4dQ498x5097kt-wuQ"
+;
 const API_OPTIONS = {
   method: "GET",
   headers: {
